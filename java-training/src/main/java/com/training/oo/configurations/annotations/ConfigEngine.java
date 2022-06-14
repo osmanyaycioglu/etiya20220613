@@ -9,7 +9,7 @@ import java.util.Properties;
 
 public class ConfigEngine {
 
-    public Object processConfig(Object instance) {
+    public static <T> T processConfig(T instance) {
         Class<?> aClass = instance.getClass();
         ConfigFile fileAnno = aClass.getAnnotation(ConfigFile.class);
         if (fileAnno == null) {
