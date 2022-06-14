@@ -13,6 +13,7 @@ public class PersonRun {
                               .withWeight(95)
                               .build();
 
+
         Araba araba = Araba.create()
                            .setName("my araba")
                            .setBrand("opel")

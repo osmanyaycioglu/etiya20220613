@@ -85,5 +85,16 @@ public class Person {
         public Person build(){
             return new Person(name,surname,weight,height);
         }
+
     }
+    @Override
+    public String toString() {
+        return "PersonBuilder{" +
+                "name='" + name + '\'' +
+                ", surname='" + surname + '\'' +
+                ", weight=" + weight +
+                ", height=" + height +
+                '}';
+    }
+
 }

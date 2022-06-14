@@ -20,6 +20,7 @@
 
   <modules>
     <module>java-training</module>
+    <module>spring-project</module>
   </modules>
 
   <dependencies>
