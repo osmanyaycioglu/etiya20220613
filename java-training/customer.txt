@@ -1,0 +1,5 @@
+osman,yaycioglu,osmanyay,123456,true,TL#100;DOLAR#1000;EURO#3000
+ali,veli,aliveli4950,123456,true,TL#200;DOLAR#2000
+ahmed,ulas,ahmed34,123456,true,TL#20000;DOLAR#33440
+ayse,are,ayseare,123456,true,TL#200;DOLAR#2000
+katmer,are,ayseare,123456,TL#200;DOLAR#2000
