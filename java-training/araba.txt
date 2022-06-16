@@ -1,0 +1,3 @@
+tosba,wv,100,180
+kirmizi,bmw,170,230
+mavi,mercedes,160,220
