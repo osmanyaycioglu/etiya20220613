@@ -1,5 +1,6 @@
 package com.training.etiya.spring.di;
 
+import com.training.etiya.spring.aop.SecureMe;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Scope;
@@ -21,6 +22,7 @@ public class HelloTr implements IHello {
         this.environment = environment;
     }
 
+    @SecureMe("osman")
     public String sayHello(String name) {
         counter++;
         return "Merhaba " + counter + " " + name;

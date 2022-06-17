@@ -1,6 +1,7 @@
 package com.training.etiya.spring.di;
 
 import com.fasterxml.jackson.annotation.JacksonInject;
+import com.training.etiya.spring.aop.SecureMe;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
@@ -15,6 +16,7 @@ public class HelloEng implements IHello {
 
     }
 
+    @SecureMe("osman")
     public String sayHello(String name) {
         counter++;
         return "Hello " + counter + " " + name;

@@ -12,8 +12,8 @@ public class HelloConf {
 //    @Autowired
 //    private Environment environment;
 
-    @Autowired
-    IHello[] helloImpls;
+//    @Autowired
+//    IHello[] helloImpls;
 
     @Bean
     public IHello helloCreator(Environment environment,@Value("${app.str}") String str,@Value("${app.language}") String lang){

@@ -1,5 +1,6 @@
 package com.training.etiya.spring.di;
 
+import com.training.etiya.spring.aop.SecureMe;
 import com.training.etiya.spring.di.HelloEng;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
@@ -15,6 +16,7 @@ public class Greetings {
         this.hello = hello;
     }
 
+    @SecureMe("osman")
     public void sayHello(String name){
         System.out.println(hello.sayHello(name));
     }
