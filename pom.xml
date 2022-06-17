@@ -21,6 +21,7 @@
   <modules>
     <module>java-training</module>
     <module>spring-project</module>
+    <module>spring-proj</module>
   </modules>
 
   <dependencies>

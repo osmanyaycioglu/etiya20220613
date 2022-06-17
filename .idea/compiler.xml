@@ -8,11 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="spring-project" />
         <module name="java-training" />
+        <module name="spring-proj" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="spring-proj" options="-parameters" />
       <module name="spring-project" options="-parameters" />
     </option>
   </component>
